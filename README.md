@@ -19,3 +19,35 @@ devops-terraform-k8s-app/
 │   ├── deployment.yaml
 │   └── service.yaml
 └── .gitignore
+---
+
+## 🚀 Getting Started
+
+### 1. Build and Push Docker Image
+```bash
+cd app
+docker build -t sedabayog/nodejs-devops-app:latest .
+docker push sedabayog/nodejs-devops-app:latest
+minikube start
+cd ../k8s
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+minikube service devops-service📦 Docker Image
+
+You can pull the image from DockerHub:
+🔗 docker.io/sedabayog/nodejs-devops-app
+
+⸻
+
+🛠️ To Do / Coming Soon
+	•	Add Terraform scripts for cloud infrastructure (AWS EC2)
+	•	Add GitHub Actions for CI/CD pipeline
+	•	Helm charts for production-level deployment
+
+⸻
+
+👩‍💻 Author
+
+Seda Bayoğlu
+💼 GitHub Profile
+🛠️ DevOps Enthusiast | Docker | Kubernetes | CI/CD | Open to Collaboration
