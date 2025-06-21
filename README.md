@@ -10,3 +10,12 @@ This is a simple DevOps demo project that containerizes a Node.js application us
 - Terraform (placeholder for future infrastructure automation)
 
 ## 📁 Project Structure
+devops-terraform-k8s-app/
+├── app/                  # Node.js app with Dockerfile
+│   ├── Dockerfile
+│   ├── index.js
+│   └── package.json
+├── k8s/                  # Kubernetes YAML files
+│   ├── deployment.yaml
+│   └── service.yaml
+└── .gitignore
