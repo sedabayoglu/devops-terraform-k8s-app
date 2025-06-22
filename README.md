@@ -1,5 +1,5 @@
 # DevOps Terraform + Kubernetes Demo App 🚀
-
+![CI/CD Status](https://github.com/sedabayoglu/devops-terraform-k8s-app/actions/workflows/nodejs.yml/badge.svg)
 This is a simple DevOps demo project that containerizes a Node.js application using Docker, deploys it to a local Kubernetes cluster (Minikube), and exposes it via a Kubernetes Service.
 
 ## 🔧 Tech Stack
